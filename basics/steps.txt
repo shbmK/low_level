@@ -1,0 +1,3 @@
+preprocessing -> compilation-> linking -> executable
+gcc -i              gcc -S
+.out object file
