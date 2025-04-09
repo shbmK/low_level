@@ -10,12 +10,19 @@ char s[];
     return n;
 }
 lower(char s);
+casting(num)
+int num;
+{
+    double a=123.456789;
+    return a+num;
+}
 main(){
-   int a=atoi("090\n"); 
+   /* int a=atoi("090\n"); 
    printf("%i",a);
    char c='D';
    char d='d';
-   printf("%c %c",lower(c),lower(d));
+   printf("%c %c",lower(c),lower(d)); */
+   printf("%d",casting(11)); //%lf or %f returns 0.000
 }
 
 lower(s)
