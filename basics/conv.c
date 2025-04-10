@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 atoi(s)
 char s[];
 {
@@ -22,7 +23,11 @@ main(){
    char c='D';
    char d='d';
    printf("%c %c",lower(c),lower(d)); */
-   printf("%d",casting(11)); //%lf or %f returns 0.000
+   //printf("%d",casting(11)); //%lf or %f returns 0.000
+   float res=sqrt((double)145);
+   printf("%f",res);
+   res=sqrt(145);
+   printf("\n%f",res);
 }
 
 lower(s)
