@@ -19,12 +19,13 @@ char itoa(int num,char *s){
     s[i]='\0';
     reverse(s);
 }
+
 int main(){
     char st[]="yolo";
     /* reverse(st);
     printf("%s",st); */
-    char numb[5];
+    /* char numb[5];
     itoa(-793,numb);
     printf("%s",numb);
-
+ */
 }
